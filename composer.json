@@ -1,5 +1,5 @@
 {
-    "name": "gyuco/DOMTemplate",
+    "name": "gyuco/domtemplate",
     "type": "library",
     "description": "DomTemplate engine forked from Kroc/DOMTemplate",
     "keywords": ["template engine","dom"],
