@@ -315,7 +315,7 @@ abstract class DOMTemplateNode {
 		$source = $this->DOMNode->ownerDocument->saveXML (
 			//if you’re calling this function from the template-root we don’t specify a node,
 			//otherwise the DOCTYPE / XML prolog won’t be included
-			get_class ($this) == 'DOMTemplate' ? NULL : $this->DOMNode
+			get_class ($this) == 'DOMTemplate\DOMTemplate' ? NULL : $this->DOMNode
 		);
 		
 		//XML is already used for the internal representation; if outputting XML no filtering is needed
